@@ -1,0 +1,30 @@
+[package]
+name = "quake3"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.69"
+description = "High level bindings for the `libmagic` C library"
+repository = "https://github.com/robo9k/quake3-rs.git"
+license = "MIT OR Apache-2.0"
+keywords = [
+    "quake3",
+    "quake-3",
+    "ioq3",
+]
+categories = [
+	"game-development",
+]
+
+[package.metadata]
+msrv = "1.69.0"
+
+[package.metadata.docs.rs]
+all-features = true
+targets = []
+
+[dependencies]
+
+[badges]
+maintenance = { status = "experimental" }
+
+[features]
