@@ -1,14 +1,8 @@
-pub fn add(left: usize, right: usize) -> usize {
-    left + right
-}
+// SPDX-FileCopyrightText: © The `quake3` Rust crate authors
+// SPDX-License-Identifier: MIT OR Apache-2.0
 
-#[cfg(test)]
-mod tests {
-    use super::*;
+//! Bits and pieces of (io)Quake3
 
-    #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
-    }
-}
+#![warn(missing_docs)]
+
+pub mod info;
